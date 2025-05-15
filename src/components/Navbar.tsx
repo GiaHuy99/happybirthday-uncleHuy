@@ -97,22 +97,24 @@ const Navbar = () => {
 			</div>
 
 			{/* mobile */}
-			{mobileMenuOpen && (
-				<div className="md:hidden bg-white/95 backdrop-blur-sm shadow-lg">
-					<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-						{navLinks.map((link) => (
-							<a
-								key={link.name}
-								href={link.href}
-								className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-rose-500"
-								onClick={() => setMobileMenuOpen(false)}
-							>
-								{link.name}
-							</a>
-						))}
-					</div>
+			<div
+				className={`md:hidden bg-white/95 backdrop-blur-sm shadow-lg overflow-hidden transition-all duration-300 ease-in-out ${
+					mobileMenuOpen ? "max-h-[300px] opacity-100" : "max-h-0 opacity-0"
+				}`}
+			>
+				<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+					{navLinks.map((link) => (
+						<a
+							key={link.name}
+							href={link.href}
+							className="block px-3 py-2 text-base font-medium text-gray-600 hover:text-rose-500"
+							onClick={() => setMobileMenuOpen(false)}
+						>
+							{link.name}
+						</a>
+					))}
 				</div>
-			)}
+			</div>
 		</nav>
 	);
 };
