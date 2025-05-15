@@ -82,7 +82,7 @@ const Hero = () => {
 				</div>
 			</div>
 
-			<div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
+			<div className="absolute bottom-8 w-full flex justify-center text-white animate-bounce">
 				<a href="#about" className="flex flex-col items-center">
 					<span className="text-sm mb-2">Desplazar hacia abajo</span>
 					<svg
