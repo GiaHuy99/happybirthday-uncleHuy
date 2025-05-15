@@ -20,20 +20,19 @@ const Hero = () => {
 		<section
 			id="hero"
 			className="relative min-h-screen flex items-center justify-center overflow-hidden"
-			style={{
-				backgroundImage:
-					"url('https://images.pexels.com/photos/6393360/pexels-photo-6393360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
-				backgroundSize: "cover",
-				backgroundPosition: "center",
-				backgroundAttachment: "fixed",
-			}}
 		>
 			<div
-				className="absolute inset-0 bg-black/40"
+				className="absolute inset-0 z-0"
 				style={{
-					transform: `translateY(${offset * 0.3}px)`,
+					backgroundImage: `url(/01.jpg)`,
+					backgroundSize: "cover",
+					backgroundPosition: "center 25%",
+					backgroundAttachment: "fixed",
+					transform: `translateY(${offset * 0.1}px)`,
 				}}
 			></div>
+
+			<div className="absolute inset-0 bg-black/40 z-0"></div>
 
 			<div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
 				<div data-aos="fade-up" data-aos-delay="100">
