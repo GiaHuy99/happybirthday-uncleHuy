@@ -43,10 +43,10 @@ const Hero = () => {
 
 				<div data-aos="fade-up" data-aos-delay="300">
 					<h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-white mb-4">
-						Salomé{" "}
-						<span className="text-gradient bg-gradient-to-r from-rose-300 to-gold-300">
+						Mis 15s
+						{/* <span className="text-gradient bg-gradient-to-r from-rose-300 to-gold-300">
 							Quinceañera
-						</span>
+						</span> */}
 					</h1>
 				</div>
 
