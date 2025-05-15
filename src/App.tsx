@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Hero from "./components/Hero";
 
 function App() {
 	const [isLoading, setIsLoading] = useState(true);
@@ -43,14 +44,14 @@ function App() {
 	return (
 		<div className="min-h-screen bg-gradient-to-b from-rose-50 to-white">
 			<Navbar />
-			{/* <main> */}
-			{/*   <Hero /> */}
-			{/*   <About /> */}
-			{/*   <Gallery /> */}
-			{/*   <EventDetails /> */}
-			{/*   <Timeline /> */}
-			{/*   <RSVP /> */}
-			{/* </main> */}
+			<main>
+				<Hero />
+				{/*   <About /> */}
+				{/*   <Gallery /> */}
+				{/*   <EventDetails /> */}
+				{/*   <Timeline /> */}
+				{/*   <RSVP /> */}
+			</main>
 			{/* <Footer /> */}
 		</div>
 	);
