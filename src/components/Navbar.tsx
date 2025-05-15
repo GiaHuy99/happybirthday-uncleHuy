@@ -46,7 +46,7 @@ const Navbar = () => {
 								<a
 									key={link.name}
 									href={link.href}
-									className="text-gray-600 hover:text-rose-500 px-3 py-2 text-sm font-medium transition-colors duration-200"
+									className="text-white hover:text-rose-500 px-3 py-2 text-sm font-medium transition-colors duration-200"
 								>
 									{link.name}
 								</a>
@@ -65,7 +65,7 @@ const Navbar = () => {
 									height="24"
 									viewBox="0 0 24 24"
 									fill="none"
-									stroke="currentColor"
+									stroke="white"
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
@@ -80,7 +80,7 @@ const Navbar = () => {
 									height="24"
 									viewBox="0 0 24 24"
 									fill="none"
-									stroke="currentColor"
+									stroke="white"
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
