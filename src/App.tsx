@@ -33,9 +33,7 @@ function App() {
 		return (
 			<div className="fixed inset-0 bg-rose-50 flex items-center justify-center">
 				<div className="text-center">
-					<h1 className="text-4xl font-script text-rose-500 mb-4">
-						Isabella's XV
-					</h1>
+					<h1 className="text-4xl font-script text-rose-500 mb-4">Salomé</h1>
 					<div className="spinner"></div>
 				</div>
 			</div>
