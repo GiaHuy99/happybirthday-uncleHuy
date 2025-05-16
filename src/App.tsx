@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
-import EventDetails from "./components/EventDetails";
-import Timeline from "./components/Timeline";
-// import RSVP from "./components/RSVP";
-// import Footer from "./components/Footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
+import EventDetails from "./components/EventDetails";
+import Timeline from "./components/Timeline";
+import RSVP from "./components/RSVP";
+import Footer from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
 	const [isLoading, setIsLoading] = useState(true);
@@ -49,9 +49,9 @@ function App() {
 				<Gallery />
 				<EventDetails />
 				<Timeline />
-				{/*   <RSVP /> */}
+				<RSVP />
 			</main>
-			{/* <Footer /> */}
+			<Footer />
 		</div>
 	);
 }
