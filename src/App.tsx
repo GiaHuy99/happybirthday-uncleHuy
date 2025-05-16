@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Hero from "./components/Hero";
+import About from "./components/About";
 
 function App() {
 	const [isLoading, setIsLoading] = useState(true);
@@ -46,7 +47,7 @@ function App() {
 			<Navbar />
 			<main>
 				<Hero />
-				{/*   <About /> */}
+				<About />
 				{/*   <Gallery /> */}
 				{/*   <EventDetails /> */}
 				{/*   <Timeline /> */}
