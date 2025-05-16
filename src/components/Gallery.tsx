@@ -23,7 +23,7 @@ const Gallery = () => {
 				<div className="gallery-grid" data-aos="fade-up" data-aos-delay="300">
 					{images.map((image, index) => (
 						<div
-							key={index}
+							key={image.id}
 							className="gallery-item"
 							data-aos="fade-up"
 							data-aos-delay={300 + index * 100}
