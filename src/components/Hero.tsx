@@ -52,13 +52,13 @@ const Hero = () => {
 
 				<div data-aos="fade-up" data-aos-delay="500">
 					<p className="text-white text-xl md:text-2xl mb-8 font-light">
-						Junio 21, 2025 <span className="mx-2">•</span> Conjunto residencial
+						Junio 22, 2025 <span className="mx-2">•</span> Conjunto residencial
 						oro
 					</p>
 				</div>
 
 				<div data-aos="fade-up" data-aos-delay="700">
-					<Countdown targetDate="2025-06-15T18:00:00" />
+					<Countdown targetDate="2025-06-22T19:30:00" />
 				</div>
 
 				<div data-aos="fade-up" data-aos-delay="900" className="mt-12">
