@@ -17,7 +17,7 @@ export const timelineEvents: timelineEvent[] = [
 		id: 3,
 		time: "7:00 PM",
 		title: "Baile Padre-Hija",
-		description: "Un momento especial entre Isabella y su padre",
+		description: "Un momento especial entre Salo y su padre",
 	},
 	{
 		id: 4,

@@ -70,7 +70,7 @@ const RSVP = () => {
 								<p>
 									<span className="font-medium">Correo:</span>
 									<a
-										href="mailto:isabellas.xv@example.com"
+										href="mailto:salome.xv@example.com"
 										className="text-rose-500 ml-2"
 									>
 										salo.xv@example.com
