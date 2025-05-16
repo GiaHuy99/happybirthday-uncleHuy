@@ -20,11 +20,20 @@ function App() {
 			mirror: true,
 		});
 
+		const handleResize = () => {
+			AOS.refresh();
+		};
+
+		window.addEventListener("resize", handleResize);
+
 		const timer = setTimeout(() => {
 			setIsLoading(false);
 		}, 1500);
 
-		return () => clearTimeout(timer);
+		return () => {
+			clearTimeout(timer);
+			window.removeEventListener("resize", handleResize);
+		};
 	}, []);
 
 	if (isLoading) {
