@@ -46,7 +46,9 @@ const Navbar = () => {
 								<a
 									key={link.name}
 									href={link.href}
-									className="text-white hover:text-rose-500 px-3 py-2 text-sm font-medium transition-colors duration-200"
+									className={`${
+										scrolled ? "text-rose-500" : "text-white"
+									} hover:text-rose-500 px-3 py-2 text-sm font-medium transition-colors duration-200`}
 								>
 									{link.name}
 								</a>
