@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
-// import Hero from "./components/Hero";
-// import About from "./components/About";
-// import Gallery from "./components/Gallery";
 // import EventDetails from "./components/EventDetails";
 // import Timeline from "./components/Timeline";
 // import RSVP from "./components/RSVP";
@@ -11,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
 
 function App() {
 	const [isLoading, setIsLoading] = useState(true);
@@ -48,7 +46,7 @@ function App() {
 			<main>
 				<Hero />
 				<About />
-				{/*   <Gallery /> */}
+				<Gallery />
 				{/*   <EventDetails /> */}
 				{/*   <Timeline /> */}
 				{/*   <RSVP /> */}
