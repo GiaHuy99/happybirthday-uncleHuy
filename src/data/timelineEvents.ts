@@ -1,4 +1,6 @@
-export const timelineEvents = [
+import { timelineEvent } from "../interfaces/index";
+
+export const timelineEvents: timelineEvent[] = [
 	{
 		id: 1,
 		time: "6:00 PM",
