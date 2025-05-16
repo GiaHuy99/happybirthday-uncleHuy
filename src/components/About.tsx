@@ -17,7 +17,7 @@ const About = () => {
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 				<div className="relative" data-aos="fade-right" data-aos-delay="200">
 					<div className="rounded-lg overflow-hidden shadow-lg">
-						<img src="/02.jpg" alt="Salo" className="w-full h-auto" />
+						<img src="/02.webp" alt="Salo" className="w-full h-auto" />
 					</div>
 					<div
 						className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-md"

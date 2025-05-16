@@ -3,32 +3,32 @@ import { imageProps } from "../interfaces";
 export const images: imageProps[] = [
 	{
 		id: 1,
-		src: "/01.jpg",
+		src: "/01.webp",
 		caption: "Foto de Salo",
 	},
 	{
 		id: 2,
-		src: "/02.jpg",
+		src: "/02.webp",
 		caption: "Foto de Salo",
 	},
 	{
 		id: 3,
-		src: "/03.jpg",
+		src: "/03.webp",
 		caption: "Foto de Salo",
 	},
 	{
 		id: 4,
-		src: "/04.jpg",
+		src: "/04.webp",
 		caption: "Foto de Salo",
 	},
 	{
 		id: 5,
-		src: "/05.jpg",
+		src: "/05.webp",
 		caption: "Foto de Salo",
 	},
 	{
 		id: 6,
-		src: "/06.jpg",
+		src: "/06.webp",
 		caption: "Foto de Salo",
 	},
 ];
