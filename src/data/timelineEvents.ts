@@ -11,7 +11,7 @@ export const timelineEvents: timelineEvent[] = [
 		id: 2,
 		time: "6:30 PM",
 		title: "Gran Entrada",
-		description: "Isabella hace su primera aparición como quinceañera",
+		description: "Salo hace su primera aparición como quinceañera",
 	},
 	{
 		id: 3,
@@ -36,7 +36,7 @@ export const timelineEvents: timelineEvent[] = [
 		id: 6,
 		time: "9:00 PM",
 		title: "Presentación del Vals",
-		description: "Isabella y su corte presentan un vals coreografiado",
+		description: "Salo y su corte presentan un vals coreografiado",
 	},
 	{
 		id: 7,
