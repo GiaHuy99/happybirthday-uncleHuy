@@ -14,14 +14,12 @@ function App() {
 	const [isLoading, setIsLoading] = useState(true);
 
 	useEffect(() => {
-		// Initialize AOS animation library
 		AOS.init({
 			duration: 1000,
 			once: false,
 			mirror: true,
 		});
 
-		// Simulate loading
 		const timer = setTimeout(() => {
 			setIsLoading(false);
 		}, 1500);

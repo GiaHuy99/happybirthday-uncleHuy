@@ -1,30 +1,61 @@
-import { Heart } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-rose-800 text-white py-12">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center">
-          <h2 className="font-script text-4xl mb-4">Isabella's XV</h2>
-          <p className="mb-8">Thank you for being part of this special celebration</p>
-          
-          <div className="flex justify-center space-x-6 mb-8">
-            <a href="#hero" className="hover:text-rose-300 transition-colors">Home</a>
-            <a href="#about" className="hover:text-rose-300 transition-colors">About</a>
-            <a href="#gallery" className="hover:text-rose-300 transition-colors">Gallery</a>
-            <a href="#details" className="hover:text-rose-300 transition-colors">Details</a>
-            <a href="#timeline" className="hover:text-rose-300 transition-colors">Timeline</a>
-            <a href="#rsvp" className="hover:text-rose-300 transition-colors">RSVP</a>
-          </div>
-          
-          <div className="flex items-center justify-center">
-            <Heart className="text-rose-300 mr-2" size={16} />
-            <p>June 15, 2025 • Grand Celebration Hall</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
+	return (
+		<footer className="bg-rose-800 text-white py-12">
+			<div className="max-w-7xl mx-auto px-4">
+				<div className="text-center">
+					<h2 className="font-script text-4xl mb-4">Salomé XV</h2>
+					<p className="mb-8">Gracias por ser parte de este día tan especial</p>
+
+					<div className="flex justify-center space-x-6 mb-8">
+						<a href="#hero" className="hover:text-rose-300 transition-colors">
+							Inicio
+						</a>
+						<a href="#about" className="hover:text-rose-300 transition-colors">
+							Acerca de
+						</a>
+						<a
+							href="#gallery"
+							className="hover:text-rose-300 transition-colors"
+						>
+							Galería
+						</a>
+						<a
+							href="#details"
+							className="hover:text-rose-300 transition-colors"
+						>
+							Detalles del evento
+						</a>
+						<a
+							href="#timeline"
+							className="hover:text-rose-300 transition-colors"
+						>
+							Agenda de la noche
+						</a>
+						<a href="#rsvp" className="hover:text-rose-300 transition-colors">
+							Confirmación
+						</a>
+					</div>
+
+					<div className="flex items-center justify-center gap-2">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							strokeWidth="2"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							className="text-rose-300 lucide lucide-heart-icon lucide-heart"
+						>
+							<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+						</svg>
+						<p>22 junio, 2025 • Conjunto residencial oro</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	);
 };
 
 export default Footer;
