@@ -24,9 +24,9 @@ const Hero = () => {
 			<div
 				className="absolute inset-0 z-0"
 				style={{
-					backgroundImage: `url(/01.jpg)`,
+					backgroundImage: `url(/03.jpg)`,
 					backgroundSize: "cover",
-					backgroundPosition: "center 25%",
+					backgroundPosition: "center 10%",
 					backgroundAttachment: "fixed",
 					transform: `translateY(${offset * 0.1}px)`,
 				}}
