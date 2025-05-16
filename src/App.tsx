@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import EventDetails from "./components/EventDetails";
-// import Timeline from "./components/Timeline";
+import Timeline from "./components/Timeline";
 // import RSVP from "./components/RSVP";
 // import Footer from "./components/Footer";
 import AOS from "aos";
@@ -48,7 +48,7 @@ function App() {
 				<About />
 				<Gallery />
 				<EventDetails />
-				{/*   <Timeline /> */}
+				<Timeline />
 				{/*   <RSVP /> */}
 			</main>
 			{/* <Footer /> */}
