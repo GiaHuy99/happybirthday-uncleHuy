@@ -1,74 +1,142 @@
-import { MapPin, Calendar, Clock, Gift } from 'lucide-react';
-
 const EventDetails = () => {
-  return (
-    <section id="details" className="section">
-      <h2 className="section-title" data-aos="fade-up">Event Details</h2>
-      
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-        <div className="rounded-lg overflow-hidden shadow-lg" data-aos="fade-right" data-aos-delay="200">
-          <img 
-            src="https://images.pexels.com/photos/1616113/pexels-photo-1616113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-            alt="Venue" 
-            className="w-full h-64 object-cover"
-          />
-          <div className="bg-white p-6">
-            <h3 className="font-display text-2xl text-rose-600 mb-4">Grand Celebration Hall</h3>
-            <p className="mb-4">
-              A beautiful venue with elegant decor, perfect for celebrating this special occasion.
-              The hall features a spacious dance floor, elegant lighting, and a magical atmosphere.
-            </p>
-            <div className="flex items-start space-x-2">
-              <MapPin className="text-rose-500 mt-1 flex-shrink-0" size={18} />
-              <p>123 Celebration Lane, Crystal Springs, FL 12345</p>
-            </div>
-          </div>
-        </div>
-        
-        <div data-aos="fade-left" data-aos-delay="300">
-          <div className="bg-white p-6 rounded-lg shadow-lg mb-6 hover-lift">
-            <div className="flex items-center space-x-4 mb-4">
-              <div className="bg-rose-100 p-3 rounded-full">
-                <Calendar className="text-rose-600" size={24} />
-              </div>
-              <div>
-                <h3 className="font-display text-xl text-gray-800">Date</h3>
-                <p className="text-gray-600">Saturday, June 15, 2025</p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-lg mb-6 hover-lift">
-            <div className="flex items-center space-x-4 mb-4">
-              <div className="bg-rose-100 p-3 rounded-full">
-                <Clock className="text-rose-600" size={24} />
-              </div>
-              <div>
-                <h3 className="font-display text-xl text-gray-800">Time</h3>
-                <p className="text-gray-600">6:00 PM - 12:00 AM</p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="bg-white p-6 rounded-lg shadow-lg hover-lift">
-            <div className="flex items-center space-x-4 mb-4">
-              <div className="bg-rose-100 p-3 rounded-full">
-                <Gift className="text-rose-600" size={24} />
-              </div>
-              <div>
-                <h3 className="font-display text-xl text-gray-800">Dress Code</h3>
-                <p className="text-gray-600">Semi-formal / Cocktail Attire</p>
-              </div>
-            </div>
-            <p className="text-gray-600 pt-2 border-t border-gray-100">
-              Ladies: Cocktail dresses in pastel or jewel tones<br />
-              Gentlemen: Dress shirt with tie, dress pants, optional jacket
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+	return (
+		<section id="details" className="section">
+			<h2 className="section-title" data-aos="fade-up">
+				Detalles del evento
+			</h2>
+
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+				<div
+					className="rounded-lg overflow-hidden shadow-lg"
+					data-aos="fade-right"
+					data-aos-delay="200"
+				>
+					<img
+						src="https://images.pexels.com/photos/1616113/pexels-photo-1616113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+						alt="Venue"
+						className="w-full h-64 object-cover"
+						loading="lazy"
+					/>
+					<div className="bg-white p-6">
+						<h3 className="font-display text-2xl text-rose-600 mb-4">
+							Conjunto residencial oro
+						</h3>
+						<p className="mb-4">
+							Un conjunto residencial con una decoración elegante, perfecto para
+							celebrar este momento especial. La sala cuenta con un piso de
+							baile espacioso, iluminación elegante y un ambiente mágico.
+						</p>
+						<div className="flex items-start space-x-2">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								className="text-rose-500 mt-1 flex-shrink-0"
+							>
+								<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+								<circle cx="12" cy="10" r="3" />
+							</svg>
+							<p>Av. 12 de octubre, Conjunto residencial oro, Itagui</p>
+						</div>
+					</div>
+				</div>
+
+				<div data-aos="fade-left" data-aos-delay="300">
+					<div className="bg-white p-6 rounded-lg shadow-lg mb-6 hover-lift">
+						<div className="flex items-center space-x-4 mb-4">
+							<div className="bg-rose-100 p-3 rounded-full">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									strokeWidth="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									className="text-rose-600 mt-1 flex-shrink-0"
+								>
+									<path d="M8 2v4" />
+									<path d="M16 2v4" />
+									<rect width="18" height="18" x="3" y="4" rx="2" />
+									<path d="M3 10h18" />
+								</svg>
+							</div>
+							<div>
+								<h3 className="font-display text-xl text-gray-800">Fecha</h3>
+								<p className="text-gray-600">Domingo, 22 de junio, 2025</p>
+							</div>
+						</div>
+					</div>
+
+					<div className="bg-white p-6 rounded-lg shadow-lg mb-6 hover-lift">
+						<div className="flex items-center space-x-4 mb-4">
+							<div className="bg-rose-100 p-3 rounded-full">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									strokeWidth="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									className="text-rose-600 mt-1 flex-shrink-0"
+								>
+									<circle cx="12" cy="12" r="10" />
+									<polyline points="12 6 12 12 16 14" />
+								</svg>
+							</div>
+							<div>
+								<h3 className="font-display text-xl text-gray-800">Hora</h3>
+								<p className="text-gray-600">19:00 - 00:00</p>
+							</div>
+						</div>
+					</div>
+
+					<div className="bg-white p-6 rounded-lg shadow-lg hover-lift">
+						<div className="flex items-center space-x-4 mb-4">
+							<div className="bg-rose-100 p-3 rounded-full">
+								<svg
+									width="24"
+									height="24"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									strokeWidth="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									className="text-rose-600 mt-1 flex-shrink-0"
+								>
+									<rect x="3" y="8" width="18" height="4" rx="1" />
+									<path d="M12 8v13" />
+									<path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7" />
+									<path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5" />
+								</svg>
+							</div>
+							<div>
+								<h3 className="font-display text-xl text-gray-800">
+									Código de vestimenta
+								</h3>
+								<p className="text-gray-600">Semi-formal</p>
+							</div>
+						</div>
+						<p className="text-gray-600 pt-2 border-t border-gray-100">
+							Hombres: Camisa con corbata, pantalones de vestir, chaqueta
+							opcional
+							<br />
+							Mujeres: Vestidos de cocktail en tonos pasteles o joyas
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	);
 };
 
 export default EventDetails;

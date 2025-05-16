@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
-// import EventDetails from "./components/EventDetails";
+import EventDetails from "./components/EventDetails";
 // import Timeline from "./components/Timeline";
 // import RSVP from "./components/RSVP";
 // import Footer from "./components/Footer";
@@ -47,7 +47,7 @@ function App() {
 				<Hero />
 				<About />
 				<Gallery />
-				{/*   <EventDetails /> */}
+				<EventDetails />
 				{/*   <Timeline /> */}
 				{/*   <RSVP /> */}
 			</main>
