@@ -52,6 +52,16 @@ const Footer = () => {
 						</svg>
 						<p>22 junio, 2025 • Conjunto residencial oro</p>
 					</div>
+
+					<p className="mt-8 text-[11px] text-white">
+						Sitio web desarrollado por{" "}
+						<a
+							href="https://www.linkedin.com/in/mateobetancurb/"
+							className="cursor-pointer hover:underline"
+						>
+							Mateo Betancur
+						</a>
+					</p>
 				</div>
 			</div>
 		</footer>
