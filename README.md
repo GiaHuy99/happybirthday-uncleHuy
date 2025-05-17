@@ -24,7 +24,7 @@
    ```
 2. Navigate to the project directory:
    ```bash
-   cd hbd-salome-website
+   cd happybirthday-salome-website
    ```
 3. Install dependencies:
    ```bash
