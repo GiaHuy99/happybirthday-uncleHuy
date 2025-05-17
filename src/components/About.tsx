@@ -1,4 +1,17 @@
+import useScrollAnimation from "../hooks/useScrollAnimation";
+
 const About = () => {
+	const animateFadeUp = useScrollAnimation("animate-fade-in-up");
+	const animateFadeRight200 = useScrollAnimation("animate-fade-in-right", {
+		delay: 200,
+	});
+	const animateZoomIn400 = useScrollAnimation("animate-zoom-in", {
+		delay: 400,
+	});
+	const animateFadeLeft300 = useScrollAnimation("animate-fade-in-left", {
+		delay: 300,
+	});
+
 	return (
 		<section id="about" className="section relative overflow-hidden">
 			<div className="floral-decoration top-left">
@@ -10,25 +23,24 @@ const About = () => {
 				</svg>
 			</div>
 
-			<h2 className="section-title" data-aos="fade-up">
+			<h2 ref={animateFadeUp} className="section-title scroll-animate">
 				Una celebración muy especial
 			</h2>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-				<div className="relative" data-aos="fade-right" data-aos-delay="200">
+				<div ref={animateFadeRight200} className="relative scroll-animate">
 					<div className="rounded-lg overflow-hidden shadow-lg">
 						<img src="/02.webp" alt="Salo" className="w-full h-auto" />
 					</div>
 					<div
-						className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-md"
-						data-aos="zoom-in"
-						data-aos-delay="400"
+						ref={animateZoomIn400}
+						className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-md scroll-animate"
 					>
 						<span className="font-script text-rose-500 text-2xl">15</span>
 					</div>
 				</div>
 
-				<div data-aos="fade-left" data-aos-delay="300">
+				<div ref={animateFadeLeft300} className="scroll-animate">
 					<p className="subtitle mb-6">Será una noche increíble</p>
 					<p className="mb-6">
 						Estamos emocionados de invitarte a celebrar los quince años de Salo,

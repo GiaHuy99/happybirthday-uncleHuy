@@ -7,32 +7,17 @@ import EventDetails from "./components/EventDetails";
 import Timeline from "./components/Timeline";
 import RSVP from "./components/RSVP";
 import Footer from "./components/Footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 function App() {
 	const [isLoading, setIsLoading] = useState(true);
 
 	useEffect(() => {
-		AOS.init({
-			duration: 1000,
-			once: false,
-			mirror: true,
-		});
-
-		const handleResize = () => {
-			AOS.refresh();
-		};
-
-		window.addEventListener("resize", handleResize);
-
 		const timer = setTimeout(() => {
 			setIsLoading(false);
 		}, 1500);
 
 		return () => {
 			clearTimeout(timer);
-			window.removeEventListener("resize", handleResize);
 		};
 	}, []);
 

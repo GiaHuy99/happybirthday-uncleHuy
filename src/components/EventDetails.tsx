@@ -1,15 +1,24 @@
+import useScrollAnimation from "../hooks/useScrollAnimation";
+
 const EventDetails = () => {
+	const animateFadeUp = useScrollAnimation("animate-fade-in-up");
+	const animateFadeRight200 = useScrollAnimation("animate-fade-in-right", {
+		delay: 200,
+	});
+	const animateFadeLeft300 = useScrollAnimation("animate-fade-in-left", {
+		delay: 300,
+	});
+
 	return (
 		<section id="details" className="section">
-			<h2 className="section-title" data-aos="fade-up">
+			<h2 ref={animateFadeUp} className="section-title scroll-animate">
 				Detalles del evento
 			</h2>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 				<div
-					className="rounded-lg overflow-hidden shadow-lg"
-					data-aos="fade-right"
-					data-aos-delay="200"
+					ref={animateFadeRight200}
+					className="rounded-lg overflow-hidden shadow-lg scroll-animate"
 				>
 					<img
 						src="https://images.pexels.com/photos/1616113/pexels-photo-1616113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -53,7 +62,7 @@ const EventDetails = () => {
 					</div>
 				</div>
 
-				<div data-aos="fade-left" data-aos-delay="300">
+				<div ref={animateFadeLeft300} className="scroll-animate">
 					<div className="bg-white p-6 rounded-lg shadow-lg mb-6 hover-lift">
 						<div className="flex items-center space-x-4 mb-4">
 							<div className="bg-rose-100 p-3 rounded-full">

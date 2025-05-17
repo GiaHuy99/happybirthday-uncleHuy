@@ -1,8 +1,24 @@
 import { useEffect, useState } from "react";
 import Countdown from "./Countdown";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const Hero = () => {
 	const [offset, setOffset] = useState(0);
+	const animateFadeUp100 = useScrollAnimation("animate-fade-in-up", {
+		delay: 100,
+	});
+	const animateFadeUp300 = useScrollAnimation("animate-fade-in-up", {
+		delay: 300,
+	});
+	const animateFadeUp500 = useScrollAnimation("animate-fade-in-up", {
+		delay: 500,
+	});
+	const animateFadeUp700 = useScrollAnimation("animate-fade-in-up", {
+		delay: 700,
+	});
+	const animateFadeUp900 = useScrollAnimation("animate-fade-in-up", {
+		delay: 900,
+	});
 
 	// parallax effect on scroll
 	useEffect(() => {
@@ -35,13 +51,13 @@ const Hero = () => {
 			<div className="absolute inset-0 bg-black/40 z-0"></div>
 
 			<div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
-				<div data-aos="fade-up" data-aos-delay="100">
+				<div ref={animateFadeUp100} className="scroll-animate">
 					<p className="font-script text-2xl md:text-3xl lg:text-4xl text-rose-200 mb-2">
 						Te invito a celebrar conmigo
 					</p>
 				</div>
 
-				<div data-aos="fade-up" data-aos-delay="300">
+				<div ref={animateFadeUp300} className="scroll-animate">
 					<h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-white mb-4">
 						Mis 15s
 						{/* <span className="text-gradient bg-gradient-to-r from-rose-300 to-gold-300">
@@ -50,18 +66,18 @@ const Hero = () => {
 					</h1>
 				</div>
 
-				<div data-aos="fade-up" data-aos-delay="500">
+				<div ref={animateFadeUp500} className="scroll-animate">
 					<p className="text-white text-xl md:text-2xl mb-8 font-light">
 						Junio 22, 2025 <span className="mx-2">•</span> Conjunto residencial
 						oro
 					</p>
 				</div>
 
-				<div data-aos="fade-up" data-aos-delay="700">
+				<div ref={animateFadeUp700} className="scroll-animate">
 					<Countdown targetDate="2025-06-22T19:30:00" />
 				</div>
 
-				<div data-aos="fade-up" data-aos-delay="900" className="mt-12">
+				<div ref={animateFadeUp900} className="scroll-animate mt-12">
 					<a href="#rsvp" className="btn btn-primary group">
 						Confirmar asistencia
 						<svg

@@ -1,6 +1,12 @@
 import { images } from "../data/images";
+import useScrollAnimation from "../hooks/useScrollAnimation";
 
 const Gallery = () => {
+	const animateFadeUp = useScrollAnimation("animate-fade-in-up");
+	const animateFadeUp300 = useScrollAnimation("animate-fade-in-up", {
+		delay: 300,
+	});
+
 	return (
 		<section
 			id="gallery"
@@ -15,25 +21,31 @@ const Gallery = () => {
 				</svg>
 			</div>
 
-			<h2 className="section-title" data-aos="fade-up">
+			<h2 ref={animateFadeUp} className="section-title scroll-animate">
 				Galería de fotos
 			</h2>
 
 			<div className="max-w-5xl mx-auto">
-				<div className="gallery-grid" data-aos="fade-up" data-aos-delay="300">
-					{images.map((image, index) => (
-						<div
-							key={image.id}
-							className="gallery-item"
-							data-aos="fade-up"
-							data-aos-delay={300 + index * 100}
-						>
-							<img src={image.src} alt={image.caption} loading="lazy" />
-							<div className="gallery-caption">
-								<p className="text-white font-medium">{image.caption}</p>
+				<div ref={animateFadeUp300} className="gallery-grid scroll-animate">
+					{images.map((image, index) => {
+						// eslint-disable-next-line react-hooks/rules-of-hooks
+						const itemAnimate = useScrollAnimation("animate-fade-in-up", {
+							delay: 300 + index * 100,
+							triggerOnce: true,
+						});
+						return (
+							<div
+								ref={itemAnimate}
+								key={image.id}
+								className="gallery-item scroll-animate"
+							>
+								<img src={image.src} alt={image.caption} loading="lazy" />
+								<div className="gallery-caption">
+									<p className="text-white font-medium">{image.caption}</p>
+								</div>
 							</div>
-						</div>
-					))}
+						);
+					})}
 				</div>
 			</div>
 		</section>

@@ -1,15 +1,27 @@
+import useScrollAnimation from "../hooks/useScrollAnimation";
+
 const RSVP = () => {
+	const animateFadeUp = useScrollAnimation("animate-fade-in-up");
+	const animateFadeUp200 = useScrollAnimation("animate-fade-in-up", {
+		delay: 200,
+	});
+	const animateFadeRight300 = useScrollAnimation("animate-fade-in-right", {
+		delay: 300,
+	});
+	const animateFadeLeft400 = useScrollAnimation("animate-fade-in-left", {
+		delay: 400,
+	});
+
 	return (
 		<section id="rsvp" className="section">
-			<h2 className="section-title" data-aos="fade-up">
+			<h2 ref={animateFadeUp} className="section-title scroll-animate">
 				Confirmación de asistencia
 			</h2>
 
 			<div className="max-w-4xl mx-auto">
 				<p
-					className="text-center text-gray-600 mb-10"
-					data-aos="fade-up"
-					data-aos-delay="200"
+					ref={animateFadeUp200}
+					className="text-center text-gray-600 mb-10 scroll-animate"
 				>
 					Por favor haznos saber si asistirás a la fiesta de Salo
 					<br />
@@ -20,9 +32,8 @@ const RSVP = () => {
 
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 					<div
-						className="bg-white p-8 rounded-lg shadow-lg"
-						data-aos="fade-right"
-						data-aos-delay="300"
+						ref={animateFadeRight300}
+						className="bg-white p-8 rounded-lg shadow-lg scroll-animate"
 					>
 						<div className="text-center py-4">
 							<div className="mx-auto w-16 h-16 mb-4">
@@ -57,7 +68,7 @@ const RSVP = () => {
 						</div>
 					</div>
 
-					<div data-aos="fade-left" data-aos-delay="400">
+					<div ref={animateFadeLeft400} className="scroll-animate">
 						<div className="bg-white p-8 rounded-lg shadow-lg mb-8">
 							<h3 className="font-display text-2xl text-rose-600 mb-4">
 								Contacto
