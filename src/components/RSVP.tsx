@@ -25,7 +25,7 @@ const RSVP = () => {
 				>
 					Por favor haznos saber si asistirás a la fiesta de Salo
 					<br />
-					<span className="text-rose-500">
+					<span className="text-purple-dark">
 						Debes confirmar tu asistencia antes del 15 de junio de 2025
 					</span>
 				</p>
@@ -46,7 +46,7 @@ const RSVP = () => {
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
-									className="text-rose-500 lucide lucide-book-text-icon lucide-book-text"
+									className="text-purple-dark lucide lucide-book-text-icon lucide-book-text"
 								>
 									<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20" />
 									<path d="M8 11h8" />
@@ -61,7 +61,7 @@ const RSVP = () => {
 								href="https://forms.gle/your-google-form-url"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="inline-block bg-rose-500 hover:bg-rose-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 shadow-md"
+								className="inline-block bg-purple-dark hover:bg-purple-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 shadow-md"
 							>
 								Clic aquí
 							</a>
@@ -70,7 +70,7 @@ const RSVP = () => {
 
 					<div ref={animateFadeLeft400} className="scroll-animate">
 						<div className="bg-white p-8 rounded-lg shadow-lg mb-8">
-							<h3 className="font-display text-2xl text-rose-600 mb-4">
+							<h3 className="font-display text-2xl text-purple-dark mb-4">
 								Contacto
 							</h3>
 							<p className="mb-6">
@@ -82,14 +82,14 @@ const RSVP = () => {
 									<span className="font-medium">Correo:</span>
 									<a
 										href="mailto:salome.xv@example.com"
-										className="text-rose-500 ml-2"
+										className="text-purple-dark ml-2"
 									>
 										salo.xv@example.com
 									</a>
 								</p>
 								<p>
 									<span className="font-medium">Teléfono:</span>
-									<a href="tel:+15551234567" className="text-rose-500 ml-2">
+									<a href="tel:+15551234567" className="text-purple-dark ml-2">
 										(555) 123-4567
 									</a>
 								</p>
@@ -97,7 +97,7 @@ const RSVP = () => {
 						</div>
 
 						<div className="bg-white p-8 rounded-lg shadow-lg">
-							<h3 className="font-display text-2xl text-rose-600 mb-4">
+							<h3 className="font-display text-2xl text-purple-dark mb-4">
 								Regalo
 							</h3>
 							<div className="flex items-center gap-2">
@@ -110,7 +110,7 @@ const RSVP = () => {
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
-									className="text-rose-500 lucide lucide-heart-icon lucide-heart"
+									className="text-purple-dark lucide lucide-heart-icon lucide-heart"
 								>
 									<path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
 								</svg>
