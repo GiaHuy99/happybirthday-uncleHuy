@@ -10,8 +10,8 @@ const EventDetails = () => {
 	});
 
 	return (
-		<section id="details" className="section">
-			<h2 ref={animateFadeUp} className="section-title scroll-animate">
+		<section id="details" className="section bg-white">
+			<h2 ref={animateFadeUp} className="section-title scroll-animate ">
 				Detalles del evento
 			</h2>
 
@@ -27,7 +27,7 @@ const EventDetails = () => {
 						loading="lazy"
 					/>
 					<div className="bg-white p-6">
-						<h3 className="font-display text-2xl text-rose-600 mb-4">
+						<h3 className="font-display text-2xl text-purple-dark mb-4">
 							Conjunto residencial oro
 						</h3>
 						<p className="mb-4">
@@ -45,7 +45,7 @@ const EventDetails = () => {
 								strokeWidth="2"
 								strokeLinecap="round"
 								strokeLinejoin="round"
-								className="text-rose-500 mt-1 flex-shrink-0"
+								className="text-purple-dark mt-1 flex-shrink-0"
 							>
 								<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
 								<circle cx="12" cy="10" r="3" />
@@ -54,7 +54,7 @@ const EventDetails = () => {
 								href="https://www.google.com/maps/search/?api=1&query=Av.+12+de+octubre+Conjunto+residencial+oro+Itagui"
 								target="_blank"
 								rel="noopener noreferrer"
-								className="text-rose-600 hover:underline"
+								className="text-purple-dark hover:underline"
 							>
 								Av. 12 de octubre, Conjunto residencial oro, Itagui
 							</a>
@@ -65,7 +65,7 @@ const EventDetails = () => {
 				<div ref={animateFadeLeft300} className="scroll-animate">
 					<div className="bg-white p-6 rounded-lg shadow-lg mb-6 hover-lift">
 						<div className="flex items-center space-x-4 mb-4">
-							<div className="bg-rose-100 p-3 rounded-full">
+							<div className="bg-purple-lighter p-3 rounded-full">
 								<svg
 									width="24"
 									height="24"
@@ -75,7 +75,7 @@ const EventDetails = () => {
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
-									className="text-rose-600 mt-1 flex-shrink-0"
+									className="text-purple-dark mt-1 flex-shrink-0"
 								>
 									<path d="M8 2v4" />
 									<path d="M16 2v4" />
@@ -92,7 +92,7 @@ const EventDetails = () => {
 
 					<div className="bg-white p-6 rounded-lg shadow-lg mb-6 hover-lift">
 						<div className="flex items-center space-x-4 mb-4">
-							<div className="bg-rose-100 p-3 rounded-full">
+							<div className="bg-purple-lighter p-3 rounded-full">
 								<svg
 									width="24"
 									height="24"
@@ -102,7 +102,7 @@ const EventDetails = () => {
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
-									className="text-rose-600 mt-1 flex-shrink-0"
+									className="text-purple-dark mt-1 flex-shrink-0"
 								>
 									<circle cx="12" cy="12" r="10" />
 									<polyline points="12 6 12 12 16 14" />
@@ -117,7 +117,7 @@ const EventDetails = () => {
 
 					<div className="bg-white p-6 rounded-lg shadow-lg hover-lift">
 						<div className="flex items-center space-x-4 mb-4">
-							<div className="bg-rose-100 p-3 rounded-full">
+							<div className="bg-purple-lighter p-3 rounded-full">
 								<svg
 									width="24"
 									height="24"
@@ -127,7 +127,7 @@ const EventDetails = () => {
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
-									className="text-rose-600 mt-1 flex-shrink-0"
+									className="text-purple-dark mt-1 flex-shrink-0"
 								>
 									<rect x="3" y="8" width="18" height="4" rx="1" />
 									<path d="M12 8v13" />
