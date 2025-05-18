@@ -4,15 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-	--primary: #f9a8d4;
-	--primary-light: #fce7f3;
-	--primary-dark: #db2777;
-	--accent: #fbbf24;
-	--text: #4b5563;
-	--background: #fff5f7;
-}
-
 html {
 	scroll-behavior: smooth;
 }
@@ -73,7 +64,7 @@ h6 {
 }
 
 .spinner {
-	@apply w-12 h-12 rounded-full border-4 border-rose-200 border-t-rose-500 animate-spin mx-auto;
+	@apply w-12 h-12 rounded-full border-4 border-purple-light border-t-purple-dark animate-spin mx-auto;
 }
 
 .floral-decoration {
