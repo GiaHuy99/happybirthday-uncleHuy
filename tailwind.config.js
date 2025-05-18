@@ -7,6 +7,7 @@ export default {
 				purple: {
 					light: "#C2B2D5",
 					dark: "#BA5AFE",
+					lighter: "#faf4ff",
 				},
 				white: "#ffffff",
 				black: "#000000",

@@ -10,7 +10,7 @@ const Gallery = () => {
 	return (
 		<section
 			id="gallery"
-			className="section bg-rose-50 relative overflow-hidden"
+			className="section bg-purple-lighter relative overflow-hidden"
 		>
 			<div className="floral-decoration top-left">
 				<svg viewBox="0 0 200 200">
