@@ -10,7 +10,7 @@ const Timeline = () => {
 	return (
 		<section
 			id="timeline"
-			className="section bg-rose-50 relative overflow-hidden"
+			className="section relative overflow-hidden bg-purple-lighter"
 		>
 			<h2 ref={animateFadeUp} className="section-title scroll-animate">
 				Cronograma del Evento
@@ -41,10 +41,10 @@ const Timeline = () => {
 							>
 								<div className="timeline-item-dot"></div>
 								<div className="timeline-item-content">
-									<h3 className="font-display text-xl text-rose-700">
+									<h3 className="font-display text-xl text-purple-dark">
 										{event.title}
 									</h3>
-									<span className="text-sm font-medium text-rose-500 block mb-2">
+									<span className="text-sm font-medium text-purple-dark block mb-2">
 										{event.time}
 									</span>
 									<p className="text-gray-600">{event.description}</p>

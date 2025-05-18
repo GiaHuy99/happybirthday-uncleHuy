@@ -90,7 +90,7 @@ h6 {
 
 .timeline-container::before {
 	content: "";
-	@apply absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-rose-200;
+	@apply absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-purple-light;
 }
 
 @media (max-width: 768px) {
@@ -112,7 +112,7 @@ h6 {
 }
 
 .timeline-item-dot {
-	@apply absolute top-4 left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-rose-500 border-4 border-white z-10;
+	@apply absolute top-4 left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-purple-dark border-4 border-white z-10;
 }
 
 @media (max-width: 768px) {
