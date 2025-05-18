@@ -52,7 +52,7 @@ const Hero = () => {
 
 			<div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
 				<div ref={animateFadeUp100} className="scroll-animate">
-					<p className="font-script text-2xl md:text-3xl lg:text-4xl text-rose-200 mb-2">
+					<p className="font-script text-2xl md:text-3xl lg:text-4xl text-purple-dark mb-2">
 						Te invito a celebrar conmigo
 					</p>
 				</div>
@@ -60,9 +60,6 @@ const Hero = () => {
 				<div ref={animateFadeUp300} className="scroll-animate">
 					<h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-white mb-4">
 						Mis 15s
-						{/* <span className="text-gradient bg-gradient-to-r from-rose-300 to-gold-300">
-							Quinceañera
-						</span> */}
 					</h1>
 				</div>
 
@@ -78,7 +75,10 @@ const Hero = () => {
 				</div>
 
 				<div ref={animateFadeUp900} className="scroll-animate mt-12">
-					<a href="#rsvp" className="btn btn-primary group">
+					<a
+						href="#rsvp"
+						className="inline-block px-6 py-3 rounded-md text-white font-medium transition-all duration-300 shadow-md transform hover:-translate-y-1 bg-gradient-to-r from-purple-light to-purple-dark hover:from-purple-dark hover:to-purple-light"
+					>
 						Confirmar asistencia
 						<svg
 							width="24"
