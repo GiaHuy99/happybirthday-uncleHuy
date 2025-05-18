@@ -48,11 +48,11 @@ h6 {
 }
 
 .section-title {
-	@apply text-3xl md:text-4xl lg:text-5xl font-display text-center mb-8 md:mb-16 text-rose-800;
+	@apply text-3xl md:text-4xl lg:text-5xl font-display text-center mb-8 md:mb-16 text-purple-dark;
 }
 
 .subtitle {
-	@apply text-xl md:text-2xl font-display text-rose-600;
+	@apply text-xl md:text-2xl font-display text-purple-dark;
 }
 
 .text-gradient {

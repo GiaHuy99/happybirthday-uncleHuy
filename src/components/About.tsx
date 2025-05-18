@@ -13,7 +13,7 @@ const About = () => {
 	});
 
 	return (
-		<section id="about" className="section relative overflow-hidden">
+		<section id="about" className="section relative overflow-hidden bg-white">
 			<div className="floral-decoration top-left">
 				<svg viewBox="0 0 200 200">
 					<path
@@ -36,7 +36,7 @@ const About = () => {
 						ref={animateZoomIn400}
 						className="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-md scroll-animate"
 					>
-						<span className="font-script text-rose-500 text-2xl">15</span>
+						<span className="font-script text-purple-dark text-2xl">15</span>
 					</div>
 				</div>
 
