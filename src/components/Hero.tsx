@@ -65,8 +65,7 @@ const Hero = () => {
 
 				<div ref={animateFadeUp500} className="scroll-animate">
 					<p className="text-white text-xl md:text-2xl mb-8 font-light">
-						Junio 22, 2025 <span className="mx-2">•</span> Conjunto residencial
-						oro
+						Junio 22, 2025 <span className="mx-2">•</span> Laion Eventos
 					</p>
 				</div>
 
