@@ -108,7 +108,7 @@ const EventDetails = () => {
 							</div>
 							<div>
 								<h3 className="font-display text-xl text-gray-800">Hora</h3>
-								<p className="text-gray-600">19:30</p>
+								<p className="text-gray-600">7:30 PM</p>
 							</div>
 						</div>
 					</div>
