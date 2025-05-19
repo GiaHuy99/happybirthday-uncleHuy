@@ -77,7 +77,12 @@ const RSVP = () => {
 							<div className="space-y-3">
 								<p>
 									<span className="font-medium">Teléfono:</span>
-									<a href="tel:+573104647152" className="text-purple-dark ml-2">
+									<a
+										href="https://wa.me/573104647152"
+										className="text-purple-dark ml-2"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										3104647152
 									</a>
 								</p>
