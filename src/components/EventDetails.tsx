@@ -12,7 +12,7 @@ const EventDetails = () => {
 	return (
 		<section id="details" className="section bg-white">
 			<h2 ref={animateFadeUp} className="section-title scroll-animate ">
-				Detalles del evento
+				Nos vemos aquí
 			</h2>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -28,12 +28,10 @@ const EventDetails = () => {
 					/>
 					<div className="bg-white p-6">
 						<h3 className="font-display text-2xl text-purple-dark mb-4">
-							Conjunto residencial oro
+							Laion Eventos
 						</h3>
 						<p className="mb-4">
-							Un conjunto residencial con una decoración elegante, perfecto para
-							celebrar este momento especial. La sala cuenta con un piso de
-							baile espacioso, iluminación elegante y un ambiente mágico.
+							Haz clic abajo para conocer las indicaciones sobre cómo llegar
 						</p>
 						<div className="flex items-start space-x-2">
 							<svg
@@ -51,12 +49,12 @@ const EventDetails = () => {
 								<circle cx="12" cy="10" r="3" />
 							</svg>
 							<a
-								href="https://www.google.com/maps/search/?api=1&query=Av.+12+de+octubre+Conjunto+residencial+oro+Itagui"
+								href="https://www.google.com/maps/search/?api=1&query=Calle+32F+%23+75C+-+145"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-purple-dark hover:underline"
 							>
-								Av. 12 de octubre, Conjunto residencial oro, Itagui
+								Calle 32F # 75C - 145
 							</a>
 						</div>
 					</div>
@@ -110,7 +108,7 @@ const EventDetails = () => {
 							</div>
 							<div>
 								<h3 className="font-display text-xl text-gray-800">Hora</h3>
-								<p className="text-gray-600">19:00 - 00:00</p>
+								<p className="text-gray-600">19:30</p>
 							</div>
 						</div>
 					</div>
@@ -139,7 +137,7 @@ const EventDetails = () => {
 								<h3 className="font-display text-xl text-gray-800">
 									Código de vestimenta
 								</h3>
-								<p className="text-gray-600">Semi-formal</p>
+								<p className="text-gray-600">Formal</p>
 							</div>
 						</div>
 						<p className="text-gray-600 pt-2 border-t border-gray-100">

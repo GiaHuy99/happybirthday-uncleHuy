@@ -23,11 +23,8 @@ const RSVP = () => {
 					ref={animateFadeUp200}
 					className="text-center text-gray-600 mb-10 scroll-animate"
 				>
-					Por favor haznos saber si asistirás a la fiesta de Salo
+					Debes confirmar tu asistencia antes del 7 de junio
 					<br />
-					<span className="text-purple-dark">
-						Debes confirmar tu asistencia antes del 15 de junio de 2025
-					</span>
 				</p>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -75,22 +72,13 @@ const RSVP = () => {
 							</h3>
 							<p className="mb-6">
 								Para cualquier pregunta o disposición especial, por favor
-								contacta a los padres de Salo:
+								escríbenos aquí
 							</p>
 							<div className="space-y-3">
 								<p>
-									<span className="font-medium">Correo:</span>
-									<a
-										href="mailto:salome.xv@example.com"
-										className="text-purple-dark ml-2"
-									>
-										salo.xv@example.com
-									</a>
-								</p>
-								<p>
 									<span className="font-medium">Teléfono:</span>
-									<a href="tel:+15551234567" className="text-purple-dark ml-2">
-										(555) 123-4567
+									<a href="tel:+573104647152" className="text-purple-dark ml-2">
+										3104647152
 									</a>
 								</p>
 							</div>

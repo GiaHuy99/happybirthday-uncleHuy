@@ -24,7 +24,7 @@ const About = () => {
 			</div>
 
 			<h2 ref={animateFadeUp} className="section-title scroll-animate">
-				Una celebración muy especial
+				Un momento para recordar
 			</h2>
 
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -43,21 +43,10 @@ const About = () => {
 				<div ref={animateFadeLeft300} className="scroll-animate">
 					<p className="subtitle mb-6">Será una noche increíble</p>
 					<p className="mb-6">
-						Estamos emocionados de invitarte a celebrar los quince años de Salo,
-						una ocasión muy especial en su vida. Esta celebración marca su
-						transición de niña a mujer, y queremos compartir este momento tan
-						significativo con todos nuestros seres queridos
-					</p>
-					<p className="mb-6">
-						Salo siempre se ha destacado por su corazón bondadoso, mente
-						creativa y sonrisa brillante. Se destaca en la escuela, le encanta
-						bailar y sueña con convertirse en veterinaria algún día. Su pasión
-						por los animales y la naturaleza se refleja en todo lo que hace.
-					</p>
-					<p>
-						Acompáñanos en una velada inolvidable mientras celebramos este hito
-						con cena, baile y tradiciones queridas que honran su transición
-						hacia la adultez.
+						Hay días que se esperan con el corazón… y este es uno de ellos.
+						Quiero compartirlo con las personas que hacen mi vida más especial.
+						He soñado con este momento, lo he imaginado mil veces, y ahora que
+						llegó… solo quiero que estés ahí conmigo.
 					</p>
 				</div>
 			</div>
