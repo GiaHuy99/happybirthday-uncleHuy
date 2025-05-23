@@ -12,11 +12,6 @@ export const images: imageProps[] = [
 		caption: "Foto de Salo",
 	},
 	{
-		id: 3,
-		src: "/03.webp",
-		caption: "Foto de Salo",
-	},
-	{
 		id: 4,
 		src: "/04.webp",
 		caption: "Foto de Salo",
@@ -29,6 +24,11 @@ export const images: imageProps[] = [
 	{
 		id: 6,
 		src: "/06.webp",
+		caption: "Foto de Salo",
+	},
+	{
+		id: 7,
+		src: "/07.webp",
 		caption: "Foto de Salo",
 	},
 ];
