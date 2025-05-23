@@ -55,7 +55,7 @@ const RSVP = () => {
 								confirmar tu asistencia
 							</p>
 							<a
-								href="https://forms.gle/your-google-form-url"
+								href="https://forms.gle/UbXR9crhVqagnSFf6"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="inline-block bg-purple-dark hover:bg-purple-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 shadow-md"
