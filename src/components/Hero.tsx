@@ -59,7 +59,7 @@ const Hero = () => {
 
 				<div ref={animateFadeUp300} className="scroll-animate">
 					<h1 className="font-script text-5xl md:text-7xl lg:text-8xl text-white mb-4">
-						Mis 15s
+						Mis 15 años
 					</h1>
 				</div>
 
