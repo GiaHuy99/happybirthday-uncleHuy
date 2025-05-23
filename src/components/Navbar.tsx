@@ -68,7 +68,7 @@ const Navbar = () => {
 									height="24"
 									viewBox="0 0 24 24"
 									fill="none"
-									stroke={scrolled ? "purple-dark" : "white"}
+									stroke={scrolled ? "text-purple-dark" : "white"}
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
@@ -83,7 +83,7 @@ const Navbar = () => {
 									height="24"
 									viewBox="0 0 24 24"
 									fill="none"
-									stroke={scrolled ? "purple-dark" : "white"}
+									stroke={scrolled ? "text-purple-dark" : "white"}
 									strokeWidth="2"
 									strokeLinecap="round"
 									strokeLinejoin="round"
