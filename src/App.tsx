@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import LoadingPage from "./components/LoadingPage";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -22,14 +23,7 @@ function App() {
 	}, []);
 
 	if (isLoading) {
-		return (
-			<div className="fixed inset-0 bg-purple-lighter flex items-center justify-center">
-				<div className="text-center">
-					<h1 className="text-4xl font-script text-purple-dark mb-4">Salomé</h1>
-					<div className="spinner"></div>
-				</div>
-			</div>
-		);
+		return <LoadingPage />;
 	}
 
 	return (
