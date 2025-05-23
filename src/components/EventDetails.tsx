@@ -137,15 +137,9 @@ const EventDetails = () => {
 								<h3 className="font-display text-xl text-gray-800">
 									Código de vestimenta
 								</h3>
-								<p className="text-gray-600">Formal</p>
+								<p className="text-gray-600">Elegante / Formal</p>
 							</div>
 						</div>
-						<p className="text-gray-600 pt-2 border-t border-gray-100">
-							Hombres: Camisa con corbata, pantalones de vestir, chaqueta
-							opcional
-							<br />
-							Mujeres: Vestidos de cocktail en tonos pasteles o joyas
-						</p>
 					</div>
 				</div>
 			</div>
