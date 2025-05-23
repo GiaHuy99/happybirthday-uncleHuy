@@ -33,7 +33,7 @@ function App() {
 	}
 
 	return (
-		<div className="min-h-screen bg-gradient-to-b from-rose-50 to-white">
+		<div className="overflow-x-hidden min-h-screen bg-gradient-to-b from-rose-50 to-white">
 			<Navbar />
 			<main>
 				<Hero />
