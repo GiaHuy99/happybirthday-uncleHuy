@@ -8,18 +8,12 @@ const Footer = () => {
 					</h2>
 					<p className="mb-8">Gracias por ser parte de este día tan especial</p>
 
-					<div className="flex justify-center space-x-6 mb-8 text-purple-dark">
+					<div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6 mb-8 text-purple-dark">
 						<a
 							href="#hero"
 							className="hover:text-purple-dark transition-colors"
 						>
 							Inicio
-						</a>
-						<a
-							href="#about"
-							className="hover:text-purple-dark transition-colors"
-						>
-							Acerca de
 						</a>
 						<a
 							href="#gallery"
