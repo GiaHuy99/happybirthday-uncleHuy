@@ -13,7 +13,7 @@ const Timeline = () => {
 			className="section relative overflow-hidden bg-purple-lighter"
 		>
 			<h2 ref={animateFadeUp} className="section-title scroll-animate">
-				Cronograma del Evento
+				Cronograma del evento
 			</h2>
 
 			<div className="max-w-4xl mx-auto">
