@@ -10,7 +10,7 @@ const Timeline = () => {
 	return (
 		<section
 			id="timeline"
-			className="section relative overflow-hidden bg-purple-lighter"
+			className="py-16 px-10 mx-auto relative overflow-hidden bg-purple-lighter"
 		>
 			<h2 ref={animateFadeUp} className="section-title scroll-animate">
 				Cronograma del evento
