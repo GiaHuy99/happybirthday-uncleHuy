@@ -3,7 +3,7 @@ import { imageProps } from "../interfaces";
 export const images: imageProps[] = [
 	{
 		id: 1,
-		src: "/01.webp",
+		src: "/op-image.webp",
 		caption: "Foto de Salo",
 	},
 	{
